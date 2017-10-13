@@ -1,0 +1,16 @@
+
+.spacer {
+  margin-top: 2rem;
+}
+
+.spacer-xl {
+  margin-top: 5rem;
+}
+
+.chuck {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+

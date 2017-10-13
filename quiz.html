@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Custom stuff -->
+    <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+
+    <title>Merendine</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper container">
+        <div class="col s12">
+          <a href="#" class="brand-logo">Merendine</a>
+          <span id="score" class="right">Score: 0</span>
+        </div>
+      </div>
+    </nav>
+
+    <form class="col s12" style="display: none">
+      <div class="row spacer">
+        <div class="col s2"></div>
+        <div class="input-field col s8"><input placeholder="" id="word0" type="text"></div>
+        <div class="col s2"></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="input-field col s8"><input placeholder="" id="word1" type="text"></div>
+        <div class="col s2"></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="input-field col s8"><input placeholder="" id="word2" type="text"></div>
+        <div class="col s2"></div>
+      </div>
+      <div class="row">
+        <div class="col s2"></div>
+        <div class="input-field col s8"><input placeholder="" id="word3" type="text"></div>
+        <div class="col s2"></div>
+      </div>
+      <div class="row">
+        <div class="center-align">
+          <button id="submit" class="btn-large waves-effect waves-light" type="button">Submit</button>
+        </div>
+      </div>
+    </form>
+
+    <div id="win" class="chuck" style="display: none">
+      <img src="https://imgflip.com/s/meme/Chuck-Norris-Approves.jpg">
+    </div>
+    <div id="lose" class="chuck" style="display: none">
+      <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-06/4/17/enhanced/webdr14/original-5324-1433453156-4.png?downsize=715:*&output-format=auto&output-quality=auto">
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
+
